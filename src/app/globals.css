@@ -1,5 +1,9 @@
 html,
 body {
+  --bs-dark: (var(--nat-navbar-bg));
+  --bs-dark-rgb: var(--nat-navbar-bg-rgb);
+  background: fixed center url('/backgrounddigits.jpg');
+  background-size: cover;
   --bs-light-rgb: 236, 236, 236;
   box-sizing: border-box;
   height: 100%;
@@ -12,3 +16,28 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+:root {
+  --nat-navbar-bg: #white;
+  --nat-navbar-bg-rgb: 80, 45, 45;
+  --nat-navbar-text-color: white;
+}
+
+footer, footer a {
+  color: var(--nat-navbar-text-color);
+}
+
+body .navbar {
+  --bs-navbar-active-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-brand-color: var(--nat-navbar-text-color);
+  --bs-navbar-brand-hover-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-color: var(--nat-navbar-text-color);
+  --bs-navbar-hover-color: var(--nat-navbar-highlight-text);
+}
+
+.bg-dark a.dropdown-item {
+  color: var(--nat-navbar-bg);
+}
+
+
+
