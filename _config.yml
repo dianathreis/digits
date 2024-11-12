@@ -1,8 +1,7 @@
-title: nextjs-application-template
-description: A template for quickly starting Next.js application development
+title: Digits
 google_analytics:
 show_downloads: true
-theme: minima
+theme: minimal
 
 gems:
   - jekyll-mentions
